@@ -10,40 +10,58 @@
     <TextView
         android:id="@+id/detail_LocationTitle"
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Name"/>
+
 
     <ImageView
         android:id="@+id/detail_LocationImageView"
+        android:scaleType="centerCrop"
         android:layout_width="match_parent"
-        android:layout_height="150dp" />
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"/>
 
     <LinearLayout
         android:id="@+id/detail_Text_Layout"
-        android:layout_margin="16dp"
         android:orientation="vertical"
+        android:padding="16dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
+            android:layout_marginTop="16dp"
+            android:paddingBottom="16dp"
             android:id="@+id/detail_location_name"
+            android:textSize="18sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="Location Name"/>
 
         <TextView
             android:id="@+id/detail_location_address"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="address"/>
+            tools:text="Address"/>
 
         <TextView
             android:id="@+id/detail_location_number"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="(xxx)xxx-xxxx"/>
 
         <TextView
             android:id="@+id/detail_location_sum"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="Summary"/>

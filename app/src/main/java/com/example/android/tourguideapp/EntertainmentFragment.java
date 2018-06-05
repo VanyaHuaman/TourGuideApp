@@ -117,12 +117,17 @@ public class EntertainmentFragment extends Fragment {
                 getString(R.string.entertainment_sum_globe_life_park),
                 getString(R.string.entertainment_sum_majestic_theater));
 
+        List<Integer> imageIds = Arrays.asList(R.drawable.six_flags_over_texas,R.drawable.hurricane_harbor,
+                R.drawable.national_videogame_museum,R.drawable.free_play_arcade,
+                R.drawable.house_of_blues,R.drawable.south_side_ballroom,R.drawable.barcadia,
+                R.drawable.att_stadium,R.drawable.globe_life_park,R.drawable.majestic_theatre);
+
 
         if(mLocations.size()<nameArray.size()){
 
             for(int index = mLocations.size();index<nameArray.size(); index++) {
                 mLocations.add(new Location(nameArray.get(index), addressArray.get(index),
-                        numberArray.get(index), sumArray.get(index)));
+                        numberArray.get(index), sumArray.get(index), imageIds.get(index)));
             }
         }
     }

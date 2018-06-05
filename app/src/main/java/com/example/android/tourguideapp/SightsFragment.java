@@ -111,12 +111,21 @@ public class SightsFragment extends Fragment {
                 getString(R.string.sights_sum_dallas_museum_of_art),
                 getString(R.string.sights_sum_george_w_bush_presidential_library));
 
+        List<Integer> imageId = Arrays.asList(
+                R.drawable.sixth_floor_museum_at_dealey_plaza,
+                R.drawable.dallas_arboretum_and_botanical_garden,
+                R.drawable.reunion_tower,
+                R.drawable.dallas_world_aquarium,
+                R.drawable.klyde_warren_park,
+                R.drawable.six_flags_over_texas,
+                R.drawable.dallas_museum_of_art,
+                R.drawable.george_w_bush_presidential_library_and_museum);
 
         if(mLocations.size()<nameArray.size()){
 
             for(int index = mLocations.size();index<nameArray.size(); index++) {
                 mLocations.add(new Location(nameArray.get(index), addressArray.get(index),
-                        numberArray.get(index), sumArray.get(index)));
+                        numberArray.get(index), sumArray.get(index),imageId.get(index)));
             }
         }
     }

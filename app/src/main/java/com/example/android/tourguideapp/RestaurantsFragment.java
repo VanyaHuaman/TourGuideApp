@@ -116,12 +116,18 @@ public class RestaurantsFragment extends Fragment {
                 getString(R.string.restaurant_sum_gonzalez),
                 getString(R.string.restaurant_sum_meso_maya_comida_y_copas));
 
+        List<Integer> imageId = Arrays.asList(
+                R.drawable.fearing_s_at_the_ritz_carlton,R.drawable.trinity_groves_dallas,
+                R.drawable.mansion_restaurant,R.drawable.gemma_restaurant,
+                R.drawable.the_grape_restaurant,R.drawable.five_sixty_by_wolfgang_puck,
+                R.drawable.mercado_juarez_restaurant,R.drawable.avila_s,
+                R.drawable.gonzalez,R.drawable.meso_maya_comida_y_copas);
 
         if(mLocations.size()<nameArray.size()){
 
             for(int index = mLocations.size();index<nameArray.size(); index++) {
                 mLocations.add(new Location(nameArray.get(index), addressArray.get(index),
-                        numberArray.get(index), sumArray.get(index)));
+                        numberArray.get(index), sumArray.get(index),imageId.get(index)));
             }
         }
     }

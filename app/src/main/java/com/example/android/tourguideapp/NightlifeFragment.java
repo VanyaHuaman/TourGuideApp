@@ -117,13 +117,17 @@ public class NightlifeFragment extends Fragment {
                 getString(R.string.nightlife_sum_black_swan_saloon),
                 getString(R.string.nightlife_sum_the_old_monk));
 
-
+        List<Integer> imageId = Arrays.asList(
+                R.drawable.candleroom,R.drawable.balcony_club,R.drawable.parliament,
+                R.drawable.double_wide,R.drawable.adair_saloon,R.drawable.sons_of_hermann_hall,
+                R.drawable.the_mansion_bar,R.drawable.twilite_lounge,R.drawable.black_swan_saloon,
+                R.drawable.the_old_monk);
 
         if(mLocations.size()<nameArray.size()){
 
             for(int index = mLocations.size();index<nameArray.size(); index++) {
                 mLocations.add(new Location(nameArray.get(index), addressArray.get(index),
-                        numberArray.get(index), sumArray.get(index)));
+                        numberArray.get(index), sumArray.get(index),imageId.get(index)));
             }
         }
     }
