@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_root_view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detail_LocationTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <ImageView
+        android:id="@+id/detail_LocationImageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+    <LinearLayout
+        android:id="@+id/detail_Text_Layout"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/detail_location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Location Name"/>
+
+        <TextView
+            android:id="@+id/detail_location_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="address"/>
+
+        <TextView
+            android:id="@+id/detail_location_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="(xxx)xxx-xxxx"/>
+
+        <TextView
+            android:id="@+id/detail_location_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Summary"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

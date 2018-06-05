@@ -1,0 +1,261 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_nightlife">NightLife</string>
+    <string name="category_sights">Sights</string>
+
+
+    <string name="restaurant_name_fearing_at_the_ritz_carlton">Fearing\'s at the Ritz
+        Carlton</string>
+    <string name="restaurant_name_trinity_groves">Trinity Groves</string>
+    <string name="restaurant_name_mansion">Mansion Restaurant</string>
+    <string name="restaurant_name_gemma">Gemma Restaurant</string>
+    <string name="restaurant_name_the_grape">The Grape Restaurant</string>
+    <string name="restaurant_name_five_sixty_by_wolfgang_puck">Five Sixty by Wolfgang Puck</string>
+    <string name="restaurant_name_mercado_juarez">Mercado Juarez Restaurant</string>
+    <string name="restaurant_name_avilas">Avila\'s</string>
+    <string name="restaurant_name_gonzalez">Gonzalez</string>
+    <string name="restaurant_name_meso_maya_comida_y_copas">Meso Maya Comida Y Copas</string>
+
+    <string name="restaurant_address_fearing_at_the_ritz_carlton">2121 McKinney Ave, Dallas,
+        TX 75201</string>
+    <string name="restaurant_address_trinity_groves">3011 Gulden Ln, Dallas, TX 75212</string>
+    <string name="restaurant_address_mansion">2821 Turtle Creek Blvd, Dallas, TX 75219</string>
+    <string name="restaurant_address_gemma">2323 N Henderson Ave #109, Dallas, TX 75206</string>
+    <string name="restaurant_address_the_grape">2808 Greenville Ave, Dallas, TX 75206</string>
+    <string name="restaurant_address_five_sixty_by_wolfgang_puck">300 Reunion Blvd E, Dallas,
+        TX 75207</string>
+    <string name="restaurant_address_mercado_juarez">1901 W Northwest Hwy, Dallas, TX 75220</string>
+    <string name="restaurant_address_avilas">4714 Maple Ave, Dallas, TX 75219</string>
+    <string name="restaurant_address_gonzalez">367 W Jefferson Blvd, Dallas, TX 75208</string>
+    <string name="restaurant_address_meso_maya_comida_y_copas">1227, 1611 McKinney Ave, Dallas,
+        TX 75202</string>
+
+    <string name="restaurant_number_fearing_at_the_ritz_carlton">(214) 922 4848</string>
+    <string name="restaurant_number_trinity_groves">(214) 744 0100</string>
+    <string name="restaurant_number_mansion">(214) 443 4747</string>
+    <string name="restaurant_number_gemma">(214) 370 9426</string>
+    <string name="restaurant_number_the_grape">(214) 828 1981</string>
+    <string name="restaurant_number_five_sixty_by_wolfgang_puck">(214) 571 5784</string>
+    <string name="restaurant_number_mercado_juarez">(972) 556 0796</string>
+    <string name="restaurant_number_avilas">(214) 520 2700</string>
+    <string name="restaurant_number_gonzalez">(214) 946 5333</string>
+    <string name="restaurant_number_meso_maya_comida_y_copas">(214) 484 6555</string>
+    
+    <string name="restaurant_sum_fearing_at_the_ritz_carlton">
+        Chef Dean Fearing\'s splashy Southwestern destination with a celebrated bar in the luxe 
+        Ritz-Carlton.</string>
+    <string name="restaurant_sum_trinity_groves">
+        Stylish restaurant marketplace with some retail shops and city views from the vast 
+        patio.</string>
+    <string name="restaurant_sum_mansion">
+        New American cuisine with regional flair presented in an elegant environment with an 
+        outdoor patio.</string>
+    <string name="restaurant_sum_gemma">
+        Relaxed outfit decked in white and blue with a coastal California feel serving New 
+        American bites.</string>
+    <string name="restaurant_sum_the_grape">
+        Longtime bistro with an innovative New American menu (including brunch) in cozy, 
+        romantic environs.</string>
+    <string name="restaurant_sum_five_sixty_by_wolfgang_puck">
+        Celebrity chef\'s counter-serve chain offering signature pizzas, sandwiches and other 
+        light fare.</string>
+    <string name="restaurant_sum_mercado_juarez">
+        Local chain branch offering Tex-Mex classics with daily lunch specials, plus margaritas 
+        and daiquiris.</string>
+    <string name="restaurant_sum_avilas">
+        Chiles rellenos, brisket tacos and other homestyle Tex-Mex dishes in a long-running 
+        cozy landmark.</string>
+    <string name="restaurant_sum_gonzalez">
+        Tex-Mex fare and margaritas are on offer at this casual cantina with vibrant hues and a 
+        fiesta ambiance.</string>
+    <string name="restaurant_sum_meso_maya_comida_y_copas">
+        Contemporary Mexican eatery serving Oaxaca- and Puebla-inspired recipes to a 
+        trendy crowd.</string>
+
+
+    <string name="entertainment_name_six_flags_over_texas">Six Flags over Texas</string>
+    <string name="entertainment_name_hurricane_harbor">Hurricane Harbor</string>
+    <string name="entertainment_name_national_videogame_museum">National Videogame Museum</string>
+    <string name="entertainment_name_free_play_arcade">Free Play Arcade</string>
+    <string name="entertainment_name_house_of_blues">House of Blues</string>
+    <string name="entertainment_name_south_side_ballroom">South Side Ballroom</string>
+    <string name="entertainment_name_barcadia">Barcadia</string>
+    <string name="entertainment_name_att_stadium">ATT Stadium</string>
+    <string name="entertainment_name_globe_life_park">Globe Life Park</string>
+    <string name="entertainment_name_majestic_theater">Majestic Theater</string>
+
+    <string name="entertainment_address_six_flags_over_texas">2201 E Road to Six Flags St,
+        Arlington, TX 76010</string>
+    <string name="entertainment_address_hurricane_harbor">1800 E Lamar Blvd, Arlington,
+        TX 76006</string>
+    <string name="entertainment_address_national_videogame_museum">8004 Dallas Pkwy, Frisco,
+        TX 75034</string>
+    <string name="entertainment_address_free_play_arcade">1730 E Belt Line Rd, Richardson,
+        TX 75081</string>
+    <string name="entertainment_address_house_of_blues">2200 N Lamar St, Dallas, TX 75202</string>
+    <string name="entertainment_address_south_side_ballroom">1135 S Lamar St Ste 101, Dallas,
+        TX 75215</string>
+    <string name="entertainment_address_barcadia">1917 N Henderson Ave, Dallas, TX 75206</string>
+    <string name="entertainment_address_att_stadium">1 ATT Way, Arlington, TX 76011</string>
+    <string name="entertainment_address_globe_life_park">1000 Ballpark Way, Arlington,
+        TX 76011</string>
+    <string name="entertainment_address_majestic_theater">1925 Elm St, Dallas, TX 75201</string>
+
+    <string name="entertainment_number_six_flags_over_texas">(817) 640 8900</string>
+    <string name="entertainment_number_hurricane_harbor">(817) 640 8900</string>
+    <string name="entertainment_number_national_videogame_museum">(972) 668 8400</string>
+    <string name="entertainment_number_free_play_arcade">(469) 554 0588</string>
+    <string name="entertainment_number_house_of_blues">(214) 978 2583</string>
+    <string name="entertainment_number_south_side_ballroom">(214) 421 2021</string>
+    <string name="entertainment_number_barcadia">(214) 821 7300</string>
+    <string name="entertainment_number_att_stadium">(817) 892 4000</string>
+    <string name="entertainment_number_globe_life_park">(817) 273 5222</string>
+    <string name="entertainment_number_majestic_theater">(214) 670 3687</string>
+
+    <string name="entertainment_sum_six_flags_over_texas">Six Flags Over Texas is a 212-acre
+        theme park located in Arlington, Texas, east of Fort Worth and about 15 miles
+        west of Dallas.</string>
+    <string name="entertainment_sum_hurricane_harbor">North Texas\' largest water park features
+        50 acres of rides and slides and a 1-million-gallon wave pool.</string>
+    <string name="entertainment_sum_national_videogame_museum">The National Videogame Museum is
+        a museum about the history of video games and the video game industry,
+        located in Frisco, Texas.</string>
+    <string name="entertainment_sum_free_play_arcade">As the name implies, Free Play is an arcade,
+        specifically a video game arcade. Free Play appeals to many, but mainly to the men of my
+        generation who grew up in the 80s</string>
+    <string name="entertainment_sum_house_of_blues">Rock- and blues-themed chain with Southern
+        dishes such as po' boys and jambalaya, plus live music.</string>
+    <string name="entertainment_sum_south_side_ballroom">Concert Venue</string>
+    <string name="entertainment_sum_barcadia">Playful venue for bar bites, a big beer menu and
+        games galore, from vintage arcade games to skeeball.</string>
+    <string name="entertainment_sum_att_stadium">ATT Stadium, formerly Cowboys Stadium, is a
+        retractable roof stadium in Arlington, Texas, United States. It serves as the home of the
+        Dallas Cowboys of the National Football League and was completed on May 27, 2009.</string>
+    <string name="entertainment_sum_globe_life_park">Globe Life Park in Arlington is a baseball
+        park in Arlington, Texas, located between Dallas and Fort Worth. It is home to the Texas
+        Rangers of Major League Baseball and the Texas Rangers Baseball Hall of Fame.</string>
+    <string name="entertainment_sum_majestic_theater">The Majestic Theatre is a performing arts
+        theater in the City Center District of Downtown Dallas. It is the last remnant of Theater
+        Row, the city\'s historic entertainment center on Elm Street</string>
+    
+    <string name="nightlife_name_candleroom">Candleroom</string>
+    <string name="nightlife_name_balcony_club">Balcony Club</string>
+    <string name="nightlife_name_parliament">Parliament</string>
+    <string name="nightlife_name_double_wide">Double Wide</string>
+    <string name="nightlife_name_adairs_saloon">Adair\'s Saloon</string>
+    <string name="nightlife_name_sons_of_hermann_hall">Sons of Hermann Hall</string>
+    <string name="nightlife_name_the_mansion_bar">The Mansion Bar</string>
+    <string name="nightlife_name_twilite_lounge">Twilite Lounge</string>
+    <string name="nightlife_name_black_swan_saloon">Black Swan Saloon</string>
+    <string name="nightlife_name_the_old_monk">The Old Monk</string>
+
+    <string name="nightlife_address_candleroom">5039 Willis Ave, Dallas, TX 75206</string>
+    <string name="nightlife_address_balcony_club">1825 Abrams Rd B, Dallas, TX 75214</string>
+    <string name="nightlife_address_parliament">2418 Allen St, Dallas, TX 75204</string>
+    <string name="nightlife_address_double_wide">3510 Commerce St, Dallas, TX 75226</string>
+    <string name="nightlife_address_adairs_saloon">2624 Commerce St, Dallas, TX 75226</string>
+    <string name="nightlife_address_sons_of_hermann_hall">3414 Elm St, Dallas, TX 75226</string>
+    <string name="nightlife_address_the_mansion_bar">2821 Turtle Creek Blvd, Dallas, TX
+        75219</string>
+    <string name="nightlife_address_twilite_lounge">2640 Elm St, Dallas, TX 75226</string>
+    <string name="nightlife_address_black_swan_saloon">2708 Elm St, Dallas, TX 75226</string>
+    <string name="nightlife_address_the_old_monk">6470, 2847 N Henderson Ave, Dallas, TX
+        75206</string>
+
+    <string name="nightlife_number_candleroom">(214) 370 4155</string>
+    <string name="nightlife_number_balcony_club">(214) 826 8104</string>
+    <string name="nightlife_number_parliament">(469) 804 4321</string>
+    <string name="nightlife_number_double_wide">(469) 872 0191</string>
+    <string name="nightlife_number_adairs_saloon">(214) 939 9900</string>
+    <string name="nightlife_number_sons_of_hermann_hall">(214) 747 4422</string>
+    <string name="nightlife_number_the_mansion_bar">(214) 559 2100</string>
+    <string name="nightlife_number_twilite_lounge">(214) 741 2121</string>
+    <string name="nightlife_number_black_swan_saloon">(214) 749 4848</string>
+    <string name="nightlife_number_the_old_monk">(214) 821 1880</string>
+
+    <string name="nightlife_sum_candleroom">Hip club spins the latest dance tunes for a dressed-up
+        crowd in a moody, candlelit space.</string>
+    <string name="nightlife_sum_balcony_club">Hideaway next to the Lakewood Theater presenting live
+        jazz shows in an intimate, laid-back setting.</string>
+    <string name="nightlife_sum_parliament">Bartenders mix drinks from a menu of over 100 craft
+        cocktails at this plush, dimly lit lounge.</string>
+    <string name="nightlife_sum_double_wide">Welcoming neighborhood bar serving beer and cocktails
+        enhanced by DJs and live mus</string>
+    <string name="nightlife_sum_adairs_saloon">Enduring watering hole for live country music and bar
+        bites in down-to-earth digs.</string>
+    <string name="nightlife_sum_sons_of_hermann_hall">Historic fraternal order ballroom that hosts
+        swing dancing, music events and large private parties.</string>
+    <string name="nightlife_sum_the_mansion_bar">Classic-style hotel bar with artisanal cocktails,
+        wine, food and live music on the weekends.</string>
+    <string name="nightlife_sum_twilite_lounge">Casually elegant haunt featuring New
+        Orleans-inspired cocktails, live music nights and a cozy patio.</string>
+    <string name="nightlife_sum_black_swan_saloon">Quaint, local go-to for infusions and creative
+        cocktails with a chill vibe and occasional live music.</string>
+    <string name="nightlife_sum_the_old_monk">Homey pub with a long beer list and lively patio
+        serves American fare, fish 'n' chips, mussels and more.</string>
+
+
+    <string name="sights_name_sixth_floor_museum_at_dealey_plaza">Sixth Floor Museum at Dealey 
+        Plaza</string>
+    <string name="sights_name_dallas_arboretum_and_botanical_garden">Dallas Arboretum and Botanical 
+        Garden</string>
+    <string name="sights_name_reunion_tower">Reunion Tower</string>
+    <string name="sights_name_dallas_world_aquarium">Dallas World Aquarium</string>
+    <string name="sights_name_klyde_warren_park">Klyde Warren Park</string>
+    <string name="sights_name_six_flags_over_texas">Six Flags Over Texas</string>
+    <string name="sights_name_dallas_museum_of_art">Dallas Museum of Art</string>
+    <string name="sights_name_george_w_bush_presidential_library">George W. Bush
+        Presidential Library</string>
+
+    <string name="sights_address_sixth_floor_museum_at_dealey_plaza">411 Elm St, Dallas,
+        TX 75202</string>
+    <string name="sights_address_dallas_arboretum_and_botanical_garden">8525 Garland Rd, Dallas,
+        TX 75218</string>
+    <string name="sights_address_reunion_tower">300 Reunion Blvd E, Dallas, TX 75207</string>
+    <string name="sights_address_dallas_world_aquarium">1801 N Griffin St, Dallas,
+        TX 75202</string>
+    <string name="sights_address_klyde_warren_park">2012 Woodall Rodgers Fwy, Dallas,
+        TX 75201</string>
+    <string name="sights_address_six_flags_over_texas">2201 E Road to Six Flags St, Arlington,
+        TX 76010</string>
+    <string name="sights_address_dallas_museum_of_art">1717 N Harwood St, Dallas, TX 75201</string>
+    <string name="sights_address_george_w_bush_presidential_library">2943 SMU Boulevard, Dallas,
+        TX 75205</string>
+
+    <string name="sights_number_sixth_floor_museum_at_dealey_plaza">(214) 747 6660</string>
+    <string name="sights_number_dallas_arboretum_and_botanical_garden">(214) 515 6615</string>
+    <string name="sights_number_reunion_tower">(214) 712 7040</string>
+    <string name="sights_number_dallas_world_aquarium">(214) 720 2224</string>
+    <string name="sights_number_klyde_warren_park">(214) 716 4500</string>
+    <string name="sights_number_six_flags_over_texas">(817) 640 8900</string>
+    <string name="sights_number_dallas_museum_of_art">(214) 922 1200</string>
+    <string name="sights_number_george_w_bush_presidential_library">(214) 200 4300</string>
+
+    <string name="sights_sum_sixth_floor_museum_at_dealey_plaza">The Sixth Floor Museum at Dealey
+        Plaza is located on the sixth floor of the Dallas County Administration Building in
+        downtown Dallas, Texas, overlooking Dealey Plaza at the intersection of Elm and Houston
+        Streets</string>
+    <string name="sights_sum_dallas_arboretum_and_botanical_garden">The Dallas Arboretum and
+        Botanical Garden is a 66-acre botanical garden located at 8525 Garland Road in East Dallas,
+        Dallas, Texas, on the southeastern shore of White Rock Lake.</string>
+    <string name="sights_sum_reunion_tower">Landmark observation deck featuring light shows,
+        360-degree city views, 2 restaurants and a gift shop.</string>
+    <string name="sights_sum_dallas_world_aquarium">The Dallas World Aquarium is a for-profit
+        aquarium and zoo located in the West End Historic District of downtown Dallas,
+        Texas, USA.</string>
+    <string name="sights_sum_klyde_warren_park">Klyde Warren Park is a 5.2-acre public park in
+        Downtown Dallas, Texas. The park is over the Woodall Rodgers Freeway, and opened in 2012.
+        It is named for Klyde Warren, the young son of billionaire Kelcy Warren. </string>
+    <string name="sights_sum_six_flags_over_texas">Six Flags Over Texas is a 212-acre theme park
+        located in Arlington, Texas, east of Fort Worth and about 15 miles west of Dallas.</string>
+    <string name="sights_sum_dallas_museum_of_art">The Dallas Museum of Art is an art museum
+        located in the Arts District of downtown Dallas, Texas, along Woodall Rodgers Freeway
+        between St. Paul and Harwood. In 1984, the museum moved from its previous location in
+        Fair Park to the Arts District.</string>
+    <string name="sights_sum_george_w_bush_presidential_library">Museum housing the
+        archives of the George W. Bush presidency, 43,000 gifts and a replica Oval Office.</string>
+    
+
+</resources>

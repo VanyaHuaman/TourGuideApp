@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#344955</color>
+    <color name="colorPrimaryDark">#232F34</color>
+    <color name="colorAccent">#F9AA33</color>
+
+    <color name="tabTextColor">#4A6572</color>
+
+
+    <color name="category_restaurants">#FD8E09</color>
+
+
+    <color name="category_Entertainment">#379237</color>
+
+
+    <color name="category_Nightlife">#8800A0</color>
+
+
+    <color name="category_Sights">#16AFCA</color>
+
+</resources>
