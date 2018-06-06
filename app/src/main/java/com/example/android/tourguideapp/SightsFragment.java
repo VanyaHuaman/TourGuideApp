@@ -57,6 +57,7 @@ public class SightsFragment extends Fragment {
 
                 detailIntent.putExtra("array",mLocations);
                 detailIntent.putExtra("position",i);
+                detailIntent.putExtra("color",R.color.category_Sights);
 
                 startActivity(detailIntent);
 

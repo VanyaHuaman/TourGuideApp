@@ -56,6 +56,7 @@ public class RestaurantsFragment extends Fragment {
 
                 detailIntent.putExtra("array",mLocations);
                 detailIntent.putExtra("position",i);
+                detailIntent.putExtra("color",R.color.category_restaurants);
 
                 startActivity(detailIntent);
             }

@@ -57,6 +57,7 @@ public class EntertainmentFragment extends Fragment {
 
                 detailIntent.putExtra("array",mLocations);
                 detailIntent.putExtra("position",i);
+                detailIntent.putExtra("color",R.color.category_Entertainment);
 
                 startActivity(detailIntent);
             }
