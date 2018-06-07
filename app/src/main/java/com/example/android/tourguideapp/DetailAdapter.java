@@ -27,7 +27,7 @@ public class DetailAdapter extends ArrayAdapter<Location> {
     public View getView(int position, View convertView,@NonNull ViewGroup parent) {
         View listItemView = convertView;
         if(listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.activity_detail,parent,false);
+            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.detail_list_item,parent,false);
         }
 
 

@@ -1,15 +1,14 @@
 package com.example.android.tourguideapp;
 
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -35,35 +34,21 @@ public class EntertainmentFragment extends Fragment {
 
         makeEntertainmentArray();
 
-        View rootView = inflater.inflate(R.layout.location_list, container, false);
+        View rootView = inflater.inflate(R.layout.location_recycler_list, container, false);
 
-        TextView categoryTextView = rootView.findViewById(R.id.categoryTextView);
+        TextView categoryTextView = (TextView) rootView.findViewById(R.id.categoryTextView);
         categoryTextView.setText(getString(R.string.category_entertainment));
         int color = ContextCompat.getColor(getContext(), R.color.category_Entertainment);
         categoryTextView.setBackgroundColor(color);
 
 
-        LocationAdapter adapter = new LocationAdapter(getActivity(), mLocations,
+        RecyclerAdapter adapter = new RecyclerAdapter(getActivity(), mLocations,
                 R.color.category_Entertainment);
 
-        ListView listView = rootView.findViewById(R.id.list);
+        RecyclerView recyclerView = rootView.findViewById(R.id.recycler_view);
 
-        listView.setAdapter(adapter);
-
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent detailIntent = new Intent(getActivity(),DetailActivity.class);
-
-                detailIntent.putExtra("array",mLocations);
-                detailIntent.putExtra("position",i);
-                detailIntent.putExtra("color",R.color.category_Entertainment);
-
-                startActivity(detailIntent);
-            }
-        });
-
-
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
         return rootView;
     }
@@ -132,5 +117,6 @@ public class EntertainmentFragment extends Fragment {
             }
         }
     }
+
 
 }
