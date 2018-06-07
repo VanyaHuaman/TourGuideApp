@@ -1,6 +1,7 @@
 package com.example.android.tourguideapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
@@ -38,7 +39,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final ViewHolder holder, int position) {
         Location currentLocation = mLocations.get(position);
 
         holder.mName.setText(currentLocation.getLocationName());
@@ -51,6 +52,18 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         }else{
             holder.mImageId.setVisibility(View.GONE);
         }
+
+        holder.parentLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(mContext, DetailActivity.class);
+                intent.putExtra("position",holder.getAdapterPosition() );
+                intent.putExtra("array",mLocations);
+                intent.putExtra("color",mColor);
+                mContext.startActivity(intent);
+            }
+        });
 
     }
 
@@ -73,7 +86,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             mName = itemView.findViewById(R.id.locationName_text_view);
             mAddress = itemView.findViewById(R.id.address_text_view);
             mImageId = itemView.findViewById(R.id.locationImage);
-            mPosition = getAdapterPosition();
         }
 
 

@@ -50,6 +50,8 @@ public class EntertainmentFragment extends Fragment {
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
+
+
         return rootView;
     }
 
