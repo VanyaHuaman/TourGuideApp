@@ -42,7 +42,7 @@
     <string name="restaurant_number_avilas">(214) 520 2700</string>
     <string name="restaurant_number_gonzalez">(214) 946 5333</string>
     <string name="restaurant_number_meso_maya_comida_y_copas">(214) 484 6555</string>
-    
+
     <string name="restaurant_sum_fearing_at_the_ritz_carlton">
         Chef Dean Fearing\'s splashy Southwestern destination with a celebrated bar in the luxe 
         Ritz-Carlton.</string>
@@ -139,7 +139,7 @@
     <string name="entertainment_sum_majestic_theater">The Majestic Theatre is a performing arts
         theater in the City Center District of Downtown Dallas. It is the last remnant of Theater
         Row, the city\'s historic entertainment center on Elm Street</string>
-    
+
     <string name="nightlife_name_candleroom">Candleroom</string>
     <string name="nightlife_name_balcony_club">Balcony Club</string>
     <string name="nightlife_name_parliament">Parliament</string>
@@ -256,6 +256,9 @@
         Fair Park to the Arts District.</string>
     <string name="sights_sum_george_w_bush_presidential_library">Museum housing the
         archives of the George W. Bush presidency, 43,000 gifts and a replica Oval Office.</string>
-    
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 
 </resources>
