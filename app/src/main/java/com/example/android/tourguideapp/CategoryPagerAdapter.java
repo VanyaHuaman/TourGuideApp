@@ -1,5 +1,6 @@
 package com.example.android.tourguideapp;
 
+import android.content.res.Resources;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -37,13 +38,13 @@ public class CategoryPagerAdapter extends FragmentPagerAdapter {
         public CharSequence getPageTitle ( int position){
             switch (position) {
                 case 0:
-                    return "R";
+                    return Resources.getSystem().getString(R.string.r);
                 case 1:
-                    return "E";
+                    return Resources.getSystem().getString(R.string.e);
                 case 2:
-                    return "N";
+                    return Resources.getSystem().getString(R.string.n);
                 case 3:
-                    return "S";
+                    return Resources.getSystem().getString(R.string.s);
                 default:
                     return null;
             }

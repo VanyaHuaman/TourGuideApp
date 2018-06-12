@@ -1,15 +1,12 @@
 package com.example.android.tourguideapp;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -22,8 +19,6 @@ public class LocationAdapter extends ArrayAdapter<Location>{
     public LocationAdapter(Context context, ArrayList<Location> locations, int colorResourceID){
         super(context, 0, locations);
         mColorResourceID = colorResourceID;
-
-
     }
 
 
@@ -55,13 +50,6 @@ public class LocationAdapter extends ArrayAdapter<Location>{
         }else{
             locationImage.setVisibility(View.GONE);
         }
-
-
-
-
-
-
-
 
         return listItemView;
 
